@@ -1,5 +1,27 @@
 {
 	"English": {
-		
+		"alert.about": "WatchCuts and Cronios brings back the ability to run shortcuts automatically from your Apple Watch.\n\nWatchCuts also lets you run shortcuts automatically on your iPad too!",
+		"alert.reminders.delete.title": "Delete Unused Shortcut Reminders",
+		"alert.reminders.delete": "You will be prompted to delete shortcut reminders that you are no longer using.",
+		"alert.shortcuts.retrieval": "This may take a few moments.",
+		"alert.shortcuts.retrieval.title": "Retrieving Shortcuts",
+		"menu.main.about": "About",
+		"menu.main.add": "Add Shortcuts…",
+		"menu.main.app": "WatchCuts",
+		"menu.main.cleanUp": "Clean Up…",
+		"menu.main.help": "Help",
+		"menu.main.list": "Run Shortcuts on List:",
+		"menu.main.remove": "Remove Shortcuts…",
+		"menu.main.runOnce": "Run Once",
+		"menu.main.settings": "Settings",
+		"menu.main.shortcuts": "Shortcuts",
+		"menu.search": "Search",
+		"menu.settings.back": "Back",
+		"menu.settings.debug": "Debug",
+		"menu.settings.language": "Change Language…",
+		"prompt.add": "Add shortcuts to your Apple Watch.",
+		"prompt.main": "WatchCuts",
+		"prompt.remove": "Remove shortcuts from your Apple Watch.",
+		"prompt.search": "Search for shortcuts. Searches are case-sensitive."
 	}
 }
