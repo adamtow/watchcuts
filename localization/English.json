@@ -53,7 +53,7 @@
 		"prompt.add": "Add shortcuts to WatchCuts. Tap Search and Done to filter your shortcuts list.",
 		"prompt.donate": "Enjoying WatchCuts? Consider leaving me a tip!",
 	    "prompt.frequency": "Add or Update the WatchCuts Cron Job in Cronios\n\nHow often do you want the WatchCuts cron job to run in Cronios? Check times begin from the top of the minute.",
-		"prompt.main": "WatchCuts\n\nPair with Cronios to run shortcuts on your iOS devices from your Apple Watch!",
+		"prompt.main": "WatchCuts\n\n⌚️⌚️⌚️⌚️⌚️\n\nPair with Cronios to run shortcuts on your iOS devices from your Apple Watch!",
 		"prompt.remove": "Select the shortcuts you wish to remove from WatchCuts.",
 		"prompt.remove.confirm": "Are you sure you want to remove the selected shortcuts from WatchCuts?",
 		"prompt.search": "Perform a case-sensitive search for shortcuts on this iOS device."
