@@ -1,6 +1,6 @@
 {
 	"English": {
-		"alert.about": "WatchCuts and Cronios enables automatic running of shortcuts on your iOS devices from all of your connected iCloud devices, including your Mac and Apple Watch!",
+		"alert.about": "WatchCuts lets you trigger the running of shortcuts on your iPhone and iPad from all of your connected iCloud devices.\n\nPair WatchCuts with Cronios — the shortcuts scheduler for iOS — and have your shortcuts run automatically when you complete tasks on your iPhone, iPad, Mac, or Apple Watch!",
 	    "alert.cronJob.frequency.title": "WatchCuts Cron Job Frequency",
 		"alert.doc.localization": "Displaying English documentation, as WatchCuts help is not yet available in {{language}}.\n\nIf you want to help translate WatchCuts, please visit: {{localization url}}.",
 		"alert.docs.simple": "WatchCuts Help\n\n⌚️⌚️⌚️⌚️⌚️\n\n1. Create a Reminders list called `{{list}}` and a calendar called `WatchCuts`.\n\n2. Add shortcuts in WatchCuts.\n\n3. Run Cronios in the background (make sure the WatchCuts cron job has been added to Cronios).\n\n4. Check off reminders in `{{list}}` using your iOS device, Mac, or Apple Watch.\n\n5. Watch your shortcuts run automatically.\n\n6. Check the `WatchCuts` calendar for responses from your shortcuts.",
@@ -11,7 +11,7 @@
 		"alert.responses": "WatchCut Responses were added to the `{{calendar}}` calendar.",
 		"alert.setup.calendar": "To allow shortcuts to send you responses after running via WatchCuts, create a new calendar called `{{calendar}}` in the Calendar app. Tap OK to copy `{{calendar}}` to the clipboard and open Calendar.\n\nReturn to Shortcuts when you have created the new calendar.",
 		"alert.setup.calendar.title": "WatchCuts Responses",
-		"alert.setup.complete": "WatchCuts setup is complete. Tap OK to read the full WatchCuts documentation and get started automating your shortcuts from all of your connected iCloud devices.",
+		"alert.setup.complete": "WatchCuts setup is complete.\n\nTap OK to read the full WatchCuts documentation and get started automating your shortcuts from all of your connected iCloud devices.",
 		"alert.setup.complete.title": "Learn More About WatchCuts",
 		"alert.setup.cronios.title": "WatchCuts and Cronios",
 		"alert.setup.cronios": "Pair WatchCuts with Cronios — the shortcuts scheduler for iOS — to enable automatic triggering of shortcuts on this device from any iCloud-connected device: iPhone, iPad, Mac, or Apple Watch.",
@@ -19,6 +19,7 @@
 		"alert.setup.reminders.title": "WatchCuts Reminders",
 		"alert.shortcuts.retrieval": "This may take a few moments.",
 		"alert.shortcuts.retrieval.title": "Retrieving Shortcuts",
+		"alert.shortcuts.ignored": "Ignored:",
 		"alert.shortcuts.locked": "Locked:",
 		"alert.shortcuts.paused": "Paused:",
 		"alert.shortcuts.success": "Ran:",
@@ -71,7 +72,7 @@
 	    "menu.reset.cancel": "Don't Reset",
 	    "menu.reset.settings": "Reset Settings…",
 		"menu.search": "Search",
-		"menu.settings.back": "Back",
+		"menu.settings.back": "WatchCuts Home",
 		"menu.settings.debug": "Enable Debug Mode",
 		"menu.settings.language": "Change Language…",
 		"menu.settings.notifications": "Show Notifications",

@@ -1,5 +1,7 @@
 # WatchCuts
-WatchCuts and Cronios lets you trigger the running of shortcuts on iPhone **and** iPad straight from your connected iCloud devices, including your Apple Watch and your Mac!
+WatchCuts lets you trigger the running of shortcuts on your iPhone and iPad from all of your connected iCloud devices. Pair WatchCuts with Cronios — the shortcuts scheduler for iOS — and have your shortcuts run automatically when you complete tasks on your iPhone, iPad, Mac, or Apple Watch!
+
+![WatchCuts](https://adamtow.github.io/watchcuts/images/watchcuts-hero.png)
 
 ***
 
@@ -80,6 +82,27 @@ Your shortcuts should now run on your iOS device. If there were no [errors](#err
 
 ***
 
+## The WatchCuts Interface
+The WatchCuts Home is where you'll add new shortcuts, remove existing shortcuts, delete completed reminders and WatchCuts response events, evaluate any shortcut reminders, and start Cronios.
+
+![WatchCuts Home](https://adamtow.github.io/watchcuts/images/watchcuts-home.png)
+
+- **Enable Monitoring**: Master ON/OFF switch for WatchCuts. If disabled, WatchCuts will not run in either Run Once mode or when called by Cronios.
+- **Add WatchCuts to Cronios**: Until you install the WatchCuts cron job into Cronios, this menu item will appear. Tap it to start the cron job import process.
+- **Run Continuously in Cronios**: Starts up Cronios in "Run Continuously" mode. Provided you have added the WatchCuts cron job to Cronios, WatchCuts will now be monitoring completed shortcut-reminders in the `WatchCuts ({{Device Name}})` list.
+- **Run Once**: Instructs WatchCuts to find any shortcut-reminders that have been completed since the last run date. Shortcuts for newly completed reminders will then run.
+- **Add Shortcuts**: Adds shortcuts from WatchCuts and shortcuts-reminders to the `WatchCuts ({{Device Name}})` list.
+- **Remove Shortcuts**: Removes shortcuts from WatchCuts and shortcuts-reminders to the `WatchCuts ({{Device Name}})` list.
+- **Clean Up**: Deletes completed shortcut-reminders in the `WatchCuts ({{Device Name}})` list and WatchCuts Response calendar entries in the `WatchCuts` calendar. Only events that were created on this device will be deleted. [Learn more about the Clean Up command here](#clean-up). 
+- **Shortcuts**: A list of shortcuts that are available for running via WatchCuts on this iOS device. Tap on a shortcut to see the [Shortcuts Menu](#shortcuts-menu). 
+- **Open Reminders**: Opens the Reminders app. Note: there is currently no way to open Reminders to a specific list, so you will have to navigate to them `WatchCuts ({{Device Name}})` list manually.
+- **About**: Displays the about dialog, along with the current version and build number for WatchCuts.
+- **Tip Jar**: If you find WatchCuts useful, I'd appreciate a tip!
+- **Help**: Displays simple instructions with a link to the documentation you are reading now.
+- **Settings**: Opens the [WatchCuts Settings page](#settings).
+
+***
+
 <span id="cronios"></span>
 ## Running WatchCuts Automatically via Cronios
 Pretty cool, eh? You can now trigger shortcuts to run on a specific iOS device from any iCloud-connected device — Mac, iPhone, iPad, iCloud, or Apple Watch. 
@@ -109,24 +132,9 @@ If you return to the Reminders app, you will see the tasks you completed have be
 
 ***
 
-## The WatchCuts Interface
-The WatchCuts Home is where you'll add new shortcuts, remove existing shortcuts, delete completed reminders and WatchCuts response events, evaluate any shortcut reminders, and start Cronios.
-
-![WatchCuts Home](https://adamtow.github.io/watchcuts/images/watchcuts-home.png)
-
-- **Enable Monitoring**: Master ON/OFF switch for WatchCuts. If disabled, WatchCuts will not run in either Run Once mode or when called by Cronios.
-- **Add WatchCuts to Cronios**: Until you install the WatchCuts cron job into Cronios, this menu item will appear. Tap it to start the cron job import process.
-- **Run Continuously in Cronios**: Starts up Cronios in "Run Continuously" mode. Provided you have added the WatchCuts cron job to Cronios, WatchCuts will now be monitoring completed shortcut-reminders in the `WatchCuts ({{Device Name}})` list.
-- **Run Once**: Instructs WatchCuts to find any shortcut-reminders that have been completed since the last run date. Shortcuts for newly completed reminders will then run.
-- **Add Shortcuts**: Adds shortcuts from WatchCuts and shortcuts-reminders to the `WatchCuts ({{Device Name}})` list.
-- **Remove Shortcuts**: Removes shortcuts from WatchCuts and shortcuts-reminders to the `WatchCuts ({{Device Name}})` list.
-- **Clean Up**: Deletes completed shortcut-reminders in the `WatchCuts ({{Device Name}})` list and WatchCuts Response calendar entries in the `WatchCuts` calendar. Only events that were created on this device will be deleted. [Learn more about the Clean Up command here](#clean-up). 
-- **Shortcuts**: A list of shortcuts that are available for running via WatchCuts on this iOS device. Tap on a shortcut to see the [Shortcuts Menu](#shortcuts-menu). 
-- **Open Reminders**: Opens the Reminders app. Note: there is currently no way to open Reminders to a specific list, so you will have to navigate to them `WatchCuts ({{Device Name}})` list manually.
-- **About**: Displays the about dialog, along with the current version and build number for WatchCuts.
-- **Tip Jar**: If you find WatchCuts useful, I'd appreciate a tip!
-- **Help**: Displays simple instructions with a link to the documentation you are reading now.
-- **Settings**: Opens the [WatchCuts Settings page](#settings).
+<span id="shortcuts"></span>
+## Shortcuts
+The shortcuts list displays all the shortcuts in the `WatchCuts ({{Device Name}})` Reminders list that are managed by WatchCuts.
 
 <span id="shortcuts-menu"></span>
 ### Shortcuts Menu
