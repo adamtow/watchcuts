@@ -131,7 +131,10 @@ If you tap on any of the shortcuts in the Shortcuts list, you'll be presented wi
 - **Run Shortcut**: Runs the shortcut, suppplying it with a WatchCuts Cronios dictionary item.
 - **Edit**: Opens the shortcut for editing. iOS will temporarily switch to mobile Safari for this to work.
 - **Remove**: Removes the shortcut from the list.
-- **Back**: Rrturn to the WatchCuts Home screen.
+- **Back**: Return to the WatchCuts Home screen.
+
+### Editing a Shortcut
+Tapping Edit from the Shortcut Menu will exit out of Shortcuts and take you to a Mobile Safari page. Safari will then raise an alert asking you to open Shortcuts. Tap **Open** to open the shortcut within the Edit screen. 
 
 ![Editing a Shortcut](https://adamtow.github.io/watchcuts/images/shortcut-edit.png)
 
