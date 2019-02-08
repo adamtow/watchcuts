@@ -133,7 +133,7 @@ If you tap on any of the shortcuts in the Shortcuts list, you'll be presented wi
 - **Remove**: Removes the shortcut from the list.
 - **Back**: Rrturn to the WatchCuts Home screen.
 
-![Editing a Shortcut](https://adamtow.github.io/watchcuts/images/shorcuts.edit.png)
+![Editing a Shortcut](https://adamtow.github.io/watchcuts/images/shortcuts.edit.png)
 
 ***
 
