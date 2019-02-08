@@ -1,13 +1,16 @@
 # WatchCuts
 WatchCuts and Cronios lets you trigger the running of shortcuts on iPhone **and** iPad straight from your connected iCloud devices, including your Apple Watch and your Mac!
 
+***
 
 ## System Requirements
 WatchCuts has the following minimum system requirements:
 
 - iOS 12
 - Shortcuts 2.1.2
-- Cronios 1.2.1
+- Cronios 1.2
+
+***
 
 ## Installation 
 When you first install and WatchCuts, you will be prompted to do the following things:
@@ -19,6 +22,8 @@ When you first install and WatchCuts, you will be prompted to do the following t
 >Run WatchCuts from the Shortcuts Home screen instead of the Edit screen. While it’s not as long as shortcuts like Cronios, LaunchCuts, or GeoCuts, it’s long enough to make things slow. 
 
 Once setup is complete, let’s add your first shortcut to WatchCuts!
+
+***
 
 ## Your First WatchCut Shortcut
 From the WatchCuts Home screen, do the following to create and test your first WatchCut shortcut:
@@ -33,6 +38,8 @@ From the WatchCuts Home screen, do the following to create and test your first W
 8. Tap Run Once. 
 
 Your shortcuts will now run on your iOS device. If there were no errors, you will see the reminders you completed reappear in the `WatchCuts ({{Device Name}})` Reminders list. 
+
+***
 
 ## Running WatchCuts Automatically via Cronios
 Pretty cool, eh? You can now trigger shortcuts to run on a specific iOS device from any iCloud-connected device — Mac, iPhone, iPad, or Apple Watch. 
@@ -58,6 +65,63 @@ If Cronios is running and the WatchCuts cron job is running, your shortcuts shou
 
 If you return to the Reminders app, you will see the tasks you completed re-added. You can then complete them again and the shortcut-reminders will be run automatically again. 
 
+***
+
+## The WatchCuts Interface
+The WatchCuts Home is where you'll add new shortcuts, remove existing shortcuts, delete completed reminders and WatchCuts response events, evaluate any shortcut reminders, and start Cronios.
+
+![WatchCuts Home](https://adamtow.github.io/watchcuts/images/watchcuts-home.png)
+
+- **Enable Monitoring**: Master ON/OFF switch for WatchCuts. If disabled, WatchCuts will not run in either Run Once mode or when called by Cronios.
+- **Add WatchCuts to Cronios**: Until you install the WatchCuts cron job into Cronios, this menu item will appear. Tap it to start the cron job import process.
+- **Run Continuously in Cronios**: Starts up Cronios in "Run Continuously" mode. Provided you have added the WatchCuts cron job to Cronios, WatchCuts will now be monitoring completed shortcut-reminders in the `WatchCuts ({{Device Name}})` list.
+- **Run Once**: Instructs WatchCuts to find any shortcut-reminders that have been completed since the last run date. Shortcuts for newly completed reminders will then run.
+- **Add Shortcuts**: Adds shortcuts from WatchCuts and shortcuts-reminders to the `WatchCuts ({{Device Name}})` list.
+- **Remove Shortcuts**: Removes shortcuts from WatchCuts and shortcuts-reminders to the `WatchCuts ({{Device Name}})` list.
+- **Clean Up**: Deletes completed shortcut-reminders in the `WatchCuts ({{Device Name}})` list and WatchCuts Response calendar entries in the `WatchCuts` calendar. Only events that were created on this device will be deleted.
+- **Shortcuts**: A list of shortcuts that are available for running via WatchCuts on this iOS device.
+- **Open Reminders**: Opens the Reminders app. Note: there is currently no way to open Reminders to a specific list, so you will have to navigate to them `WatchCuts ({{Device Name}})` list manually.
+- **About**: Displays the about dialog, along with the current version and build number for WatchCuts.
+- **Tip Jar**: If you find WatchCuts useful, I'd appreciate a tip!
+- **Help**: Displays simple instructions with a link to the documentation you are reading now.
+- **Settings**: Opens the [WatchCuts Settings page](#settings).
+
+### Shortcuts Menu
+If you tap on any of the shortcuts in the Shortcuts list, you'll be presented with the following actions:
+
+![WatchCuts Settings](https://adamtow.github.io/watchcuts/images/watchcuts-settings.png)
+
+- **Run Shortcut**: Runs the shortcut, suppplying it with a WatchCuts Cronios dictionary item.
+- **Edit**: Opens the shortcut for editing. iOS will temporarily switch to mobile Safari for this to work.
+- **Remove**: Removes the shortcut from the list.
+- **Back**: Rrturn to the WatchCuts Home screen.
+
+![Editing a Shortcut](https://adamtow.github.io/watchcuts/images/shorcuts.edit.png)
+
+
+***
+
+<span id="settings"></span>
+## Settings
+WatchCuts can be configured in the following ways from the Settings page:
+
+![WatchCuts Settings](https://adamtow.github.io/watchcuts/images/watchcuts-settings.locked.png)
+
+- **Run at Launch**: Look for and run any shortcut-reminders since the last time WatchCuts ran an evaluation.
+- **Allow WatchCut Responses**: Shortcuts can be developed to return a response to WatchCuts. Disabling this feature prevents WatchCuts Responses from being added to this iOS device. [Learn more about WatchCuts Responses here](#watchcut-responses).
+- **Show Notifications**: Enable to display the result of WatchCuts evaluating your shortcut-reminders.
+- **Check for Update Automatically**: As startup, WatchCuts will check Routinehub.co for any updates to WatchCuts.
+- **Enable Debug Mode**: Displays banners during operation for debugging purposes.
+- **Tools**
+	- **Add WatchCuts to Cronios**: Adds the WatchCuts cron job to Cronios.
+	- **Change Language**: WatchCuts comes default with English, but it's fully prepared to be localized.
+	- **Check for Updates**: Manually check for updates of WatchCuts on Routinehub.co.
+	- **Reset**: Resets WatchCuts' settings or erase all content and settings.
+	- **Back**: Returns to the WatchCuts Home screen.
+
+***
+
+<span id="watchcut-responses"></span>
 ## Retrieving Responses From Shortcuts Run Via WatchCuts
 Shortcuts that are run via WatchCuts can return data by supplying a `WatchCuts Response` dictionary when they exit. WatchCuts reads this dictionary and creates a new event in the `WatchCuts {{Device Name}}` calendar. iCloud will sync this calendar data to all of your connected devices, including your Apple Watch. 
 
@@ -82,6 +146,8 @@ If a shortcut has an error while being run by WatchCuts, it will not run again u
 3. Select the shortcuts that should be unlocked. 
 4. Tap **Done**. 
 
+![Dealing with locked shortcuts.](https://adamtow.github.io/watchcuts/images/shortcuts-locked.png)
+
 ## Security
 It goes without saying that you should keep **absolute** control over who has access to your Reminders on all of your devices connected to your iCloud account. 
 
@@ -91,6 +157,7 @@ If WatchCuts is running via Cronios, it will look at the `WatchCuts {{Device Nam
 To disable automatic monitoring of your WatchCuts Reminders list, do one of the following:
 
 - Turn off Cronios. 
+- Turn off monitoring in WatchCuts.
 - Deactivate the WatchCuts cron job in Cronios. 
 - Delete the WatchCuts cron job in Cronios. 
 - Remove shortcuts in WatchCuts.
