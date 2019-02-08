@@ -11,9 +11,7 @@ WatchCuts works by monitoring a specific Reminders list that is shared by all iC
 
 > WatchCuts uses device-specific settings, so the shortcuts you trigger on your iPad can be different from the ones on your iPhone.
 
-When you mark these shortcut-reminders as complete, WatchCuts will know which shortcuts to execute the next time you run WatchCuts. It will then re-add the shortcut-reminders back to the Reminders list so you can check them off again.
-
-Pair WatchCuts with [Cronios — the shortcuts scheduler for iOS](#cronios) — and have your shortcuts automatically run as you check tasks off on your iPhone, iPad, Mac, Apple Watch, and [iCloud.com](#icloud-caveat))!
+When you mark these shortcut-reminders as complete, WatchCuts will know which shortcuts to execute the next time you run WatchCuts. It will then re-add the shortcut-reminders back to the Reminders list so you can check them off again. When you pair WatchCuts with [Cronios](#cronios), you can automatically run shortcuts as you complete tasks in Reminders. Shortcuts can optionally return a [WatchCuts Response](#watchcuts-response) which will be added to a specific WatchCuts calendar for viewing on your iCloud connected devices.
 
 ![WatchCuts Home](https://adamtow.github.io/watchcuts/images/watchcuts-home.png)
 
