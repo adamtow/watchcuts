@@ -3,6 +3,12 @@ WatchCuts and Cronios lets you trigger the running of shortcuts on iPhone **and*
 
 ***
 
+## Table of Contents
+
+{{TOC}}
+
+***
+
 ## System Requirements
 WatchCuts has the following minimum system requirements:
 
@@ -180,7 +186,7 @@ WatchCuts can be configured in the following ways from the Settings page:
 ***
 
 <span id="watchcut-responses"></span>
-## Retrieving Responses From Shortcuts Run Via WatchCuts
+## WatchCuts Responses
 Shortcuts that are run via WatchCuts can return data by supplying a `WatchCuts Response` dictionary when they exit. WatchCuts reads this dictionary and creates a new event in the `WatchCuts {{Device Name}}` calendar. iCloud will sync this calendar data to all of your connected devices, including your Apple Watch. 
 
 ![A WatchCuts Response](https://adamtow.github.io/watchcuts/images/watchcuts-response.png)
@@ -198,9 +204,14 @@ Here are the fields that you can fill out in the WatchCuts Response Dictionary:
 - **All Day**: A Boolean value. Specify true to create an All Day event. Specify false or leave blank to create a timed calendar event. 
 - **Notes**: Free-form text field for your WatchCuts Response. 
 
+***
+
 <span id="errors"></span>
 ## Handling Errors
-If a shortcut has an error while being run by WatchCuts, it will not run again until you “unlock” or resolve the shortcut in WatchCuts. 
+
+<span id="locked-shortcuts"></span>
+### Locked Shortcuts
+If a shortcut experiences an error while being run by WatchCuts, it will not run again until you “unlock” or resolve the shortcut in WatchCuts. 
 
 1. Open **WatchCuts**.
 2. Tap **Locked Shortcuts**.
