@@ -114,7 +114,7 @@ The WatchCuts Home is where you'll add new shortcuts, remove existing shortcuts,
 - **Run Once**: Instructs WatchCuts to find any shortcut-reminders that have been completed since the last run date. Shortcuts for newly completed reminders will then run.
 - **Add Shortcuts**: Adds shortcuts from WatchCuts and shortcuts-reminders to the `WatchCuts ({{Device Name}})` list.
 - **Remove Shortcuts**: Removes shortcuts from WatchCuts and shortcuts-reminders to the `WatchCuts ({{Device Name}})` list.
-- **Clean Up**: Deletes completed shortcut-reminders in the `WatchCuts ({{Device Name}})` list and WatchCuts Response calendar entries in the `WatchCuts` calendar. Only events that were created on this device will be deleted. [Learn more about the Clean Up commande here](#clean-up). 
+- **Clean Up**: Deletes completed shortcut-reminders in the `WatchCuts ({{Device Name}})` list and WatchCuts Response calendar entries in the `WatchCuts` calendar. Only events that were created on this device will be deleted. [Learn more about the Clean Up command here](#clean-up). 
 - **Shortcuts**: A list of shortcuts that are available for running via WatchCuts on this iOS device. Tap on a shortcut to see the [Shortcuts Menu](#shortcuts-menu). 
 - **Open Reminders**: Opens the Reminders app. Note: there is currently no way to open Reminders to a specific list, so you will have to navigate to them `WatchCuts ({{Device Name}})` list manually.
 - **About**: Displays the about dialog, along with the current version and build number for WatchCuts.
