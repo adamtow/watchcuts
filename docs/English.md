@@ -183,6 +183,8 @@ WatchCuts can be configured in the following ways from the Settings page:
 ## Retrieving Responses From Shortcuts Run Via WatchCuts
 Shortcuts that are run via WatchCuts can return data by supplying a `WatchCuts Response` dictionary when they exit. WatchCuts reads this dictionary and creates a new event in the `WatchCuts {{Device Name}}` calendar. iCloud will sync this calendar data to all of your connected devices, including your Apple Watch. 
 
+![A WatchCuts Response](https://adamtow.github.io/watchcuts/images/watchcuts-response.png)
+
 >If you have not created a calendar named `WatchCuts {{Device Name}}`, the WatchCuts Resppnse Dictionary will be ignored. 
 
 You can then look at the results of your shortcuts straight from your iOS Device. This is a convenient way deliver more information than Siri could display or speak to you via voice. You can also use this method to review past shortcut responses, similar to Notification Center. 
