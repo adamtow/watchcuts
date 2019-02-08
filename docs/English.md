@@ -126,14 +126,14 @@ The WatchCuts Home is where you'll add new shortcuts, remove existing shortcuts,
 ### Shortcuts Menu
 If you tap on any of the shortcuts in the Shortcuts list, you'll be presented with the following actions:
 
-![WatchCuts Settings](https://adamtow.github.io/watchcuts/images/shortcuts-menu.png)
+![Shortcut Menu](https://adamtow.github.io/watchcuts/images/shortcut-menu.png)
 
 - **Run Shortcut**: Runs the shortcut, suppplying it with a WatchCuts Cronios dictionary item.
 - **Edit**: Opens the shortcut for editing. iOS will temporarily switch to mobile Safari for this to work.
 - **Remove**: Removes the shortcut from the list.
 - **Back**: Rrturn to the WatchCuts Home screen.
 
-![Editing a Shortcut](https://adamtow.github.io/watchcuts/images/shortcuts.edit.png)
+![Editing a Shortcut](https://adamtow.github.io/watchcuts/images/shortcut.edit.png)
 
 ***
 
