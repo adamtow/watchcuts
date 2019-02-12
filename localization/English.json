@@ -50,6 +50,7 @@
 		"menu.donate.later": "Donate Later",
 	    "menu.erase.cancel": "Don't Erase",
 	    "menu.erase.content": "Erase All Content & Settings…",
+	    "menu.erase.cache": "Clear Menu Caches",
 		"menu.help.back": "Back to WatchCuts Home",
 		"menu.help.fullDocumentation": "Read Full WatchCuts Documentation…",
 		"menu.main.about": "About",
