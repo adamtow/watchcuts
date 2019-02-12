@@ -108,6 +108,6 @@
 		"prompt.search": "Perform a case-sensitive search for shortcuts on this iOS device.",
 		"prompt.settings": "WatchCuts Settings",
 		"prompt.shortcuts.locked": "Ensure these shortcuts can run in the background before unlocking.",
-		"prompt.update": "WatchCuts {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}",
+		"prompt.update": "WatchCuts {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }
