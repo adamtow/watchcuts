@@ -28,6 +28,7 @@
 		"debug.lastModifiedDate": "Last Modified:",
 		"debug.lastRun": "Last Run:",
 		"debug.timeBetween": "Time Between:",
+	    "error.cache": "WatchCuts must reload its menu cache. Please try again after the Home screen appears",
 		"error.cronios": "Cronios is not installed on this iOS device. Download it from http://cronios.com.",
 	    "error.cronios.title": "Cronios Not Installed",
 	    "error.offline": "You must be connected to the internet for this feature of WatchCuts to work.",

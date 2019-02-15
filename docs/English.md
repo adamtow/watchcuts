@@ -331,9 +331,11 @@ To uninstall WatchCuts, do the following:
 
 <span id="localization"></span>
 ## Localization 
-WatchCuts is fully localized and ready to be translated in your language.
+WatchCuts is available in English, but the application is fully ready to be localized. I have developed an application, Localization Helper, that will assist you in localizing WatchCuts into your language.
 
-Visit the [WatchCuts page on GitHub](https://github.com/adamtow/watchcuts) and submit a pull request!
+> [**Download Localization Helper from RoutineHub &raquo;**](https://routinehub.co/shortcut/1931)
+
+When the localization file is complete, either submit a pull request on [my GitHub page](https://github.com/adamtow/) or [contact me](mailto:watchcuts+localization@tow.com).
 
 ***
 
