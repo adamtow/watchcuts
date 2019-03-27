@@ -96,6 +96,7 @@
 	    "prompt.erase.content": "Are you sure you want to delete all WatchCuts content and settings for this device?\n\nThis operation cannot be undone. ",
 	    "prompt.erase.content2": "Are you ABSOLUTELY SURE you want to delete all WatchCuts content and settings for this device?\n\nThis operation cannot be undone.",
 	    "prompt.frequency": "Add or Update the WatchCuts Cron Job in Cronios\n\nHow often do you want the WatchCuts cron job to run in Cronios? Check times begin from the top of the minute.",
+	    "prompt.language": "Choose Language:",
 		"prompt.main": "WatchCuts\n\n⌚️⌚️⌚️⌚️⌚️\n\nRun shortcuts from the Reminders list:\n{{list}}",
 		"prompt.main.ipad": "WatchCuts\n\n⌚️⌚️⌚️⌚️⌚️\n\nRun shortcuts from the Reminders list: {{list}}",
 		"prompt.main.ipad.long": "WatchCuts\n\n⌚️⌚️⌚️⌚️⌚️\n\nPair WatchCuts with Cronios and run shortcuts on your iOS devices (including iPad) from your Apple Watch!\n\nRun shortcuts from the Reminders list: {{list}}\n\nComplete them, and they will automatically run according to WatchCuts' schedule in Cronios.",
